@@ -5,7 +5,8 @@ Logo made with [DesignEvo](https://www.designevo.com/)
 # Defold-Polyglot
 
 Defold Polyglot is a simple Polyglot to Defold Tool for game localisations.
-Polyglot is one of many community-driven open-source localisation projects available online [here.](https://docs.google.com/spreadsheets/d/17f0dQawb-s_Fd7DHgmVvJoEGDMH_yoSd8EYigrb0zmM)
+Polyglot is one of many community-driven open-source localisation projects available online [here.](https://docs.google.com/spreadsheets/d/17f0dQawb-s_Fd7DHgmVvJoEGDMH_yoSd8EYigrb0zmM)\
+Defold Polyglot could be potentially used in any Lua project after adjusting actual csv resource importing in your engine/project.
 
 ## Installation
 You can use Defold Polyglot in your own project by adding this project as a [Defold library dependency](http://www.defold.com/manuals/libraries/). Open your game.project file and in the dependencies field under project add:
@@ -80,3 +81,7 @@ Gets a translated to current language string for given string_id.
 * `translation` (string) - a translated to current language string
 
 ---
+
+## License
+
+This is a free open-source software under MIT license. See LICENSE.md for details.
