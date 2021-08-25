@@ -1,0 +1,17 @@
+local polyglot = require "polyglot.polyglot"
+
+function init(self)
+	-- 1. import resource
+	polyglot.import("/assets/polyglot.csv")
+
+	-- 2. set language
+	polyglot.set_language("English")
+	-- 3. use string_ids in getter
+	label.set_text("#label_en", "English: "..polyglot.get("CONTEXT_CLASS_WARRIOR"))
+
+	polyglot.set_language("Polish")
+	label.set_text("#label_pl", polyglot.language..": "..polyglot.get("CONTEXT_CLASS_WARRIOR"))
+
+	polyglot.set_language("Swedish")
+	label.set_text("#label_se", polyglot.language..": "..polyglot.get("CONTEXT_CLASS_WARRIOR"))
+end
