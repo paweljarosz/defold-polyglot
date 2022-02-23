@@ -16,3 +16,5 @@ title = Defold_Polyglot
 dependencies = 
 custom_resources = assets
 
+[library]
+include_dirs = polyglot
